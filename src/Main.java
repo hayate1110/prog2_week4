@@ -8,5 +8,7 @@ public class Main {
         bot2.setName("差別用語");
         bot2.setName("rename");
         bot2.greeting();
+        bot1.sleeping();
+        bot2.sleeping();
     }
 }

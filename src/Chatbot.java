@@ -14,6 +14,10 @@ public class Chatbot {
         System.out.println("初めまして" + this.name + "です、よろしくお願いします。");
     }
 
+    public void sleeping() {
+        System.out.println("おやすみなさい");
+    }
+
     public void setName(String _name) {
         if(_name.equals("差別用語")) {
             System.out.println("禁止されています。");
